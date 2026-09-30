@@ -1,0 +1,21 @@
+window.MOCK_UBICACIONES = [
+  { id: 'loc-1', name: 'Aula 101', building: 'Edificio A', area: 'Académica', floor: 1, type: 'Aula' },
+  { id: 'loc-2', name: 'Aula 102', building: 'Edificio A', area: 'Académica', floor: 1, type: 'Aula' },
+  { id: 'loc-3', name: 'Laboratorio Balística', building: 'Edificio B', area: 'Investigación', floor: 1, type: 'Laboratorio' },
+  { id: 'loc-4', name: 'Laboratorio Dactiloscopia', building: 'Edificio B', area: 'Investigación', floor: 1, type: 'Laboratorio' },
+  { id: 'loc-5', name: 'Ciudadela', building: 'Sector Norte', area: 'Operaciones', floor: 1, type: 'Especializado' },
+  { id: 'loc-6', name: 'Polígono Virtual', building: 'Sede Principal', area: 'Entrenamiento', floor: 1, type: 'Especializado' },
+  { id: 'loc-7', name: 'Comedor Central', building: 'Edificio Servicios', area: 'Bienestar', floor: 1, type: 'Comedor' },
+  { id: 'loc-8', name: 'Dormitorio Oficiales', building: 'Edificio C', area: 'Alojamiento', floor: 1, type: 'Dormitorio' },
+  { id: 'loc-9', name: 'Área de Vehículos', building: 'Patio Central', area: 'Logística', floor: 1, type: 'Estacionamiento' },
+  { id: 'loc-10', name: 'Armamentismo (Sótano)', building: 'Sótano 1', area: 'Seguridad', floor: 1, type: 'Almacén' },
+  { id: 'loc-11', name: 'Oficina Administrativa', building: 'Edificio A', area: 'Administración', floor: 1, type: 'Oficina' },
+  { id: 'loc-gen', name: 'Generador', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Servicios' },
+  { id: 'loc-ext-da', name: 'Extensión del Departamento Académico', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' },
+  { id: 'loc-sig', name: 'Sistema Integrado de Gestión', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' },
+  { id: 'loc-rh', name: 'Recursos Humanos', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' },
+  { id: 'loc-ga', name: 'Gestión Académica', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' },
+  { id: 'loc-gt', name: 'Gestión Tecnológica', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' },
+  { id: 'loc-sala', name: 'Sala de Reuniones Principal', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Sala' },
+  { id: 'loc-dir', name: 'Dirección General EIC', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' }
+];

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #042B60;
+  --color-accent: #FFED00;
+  --color-secondary-blue: #009FE3;
+  --color-turquoise: #49BED8;
+}
+
+:root {
+  --primary: #042B60;
+  --accent: #FFED00;
+  --secondary-blue: #009FE3;
+  --turquoise: #49BED8;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+}
+
+.bg-institutional {
+  background-color: var(--primary);
+  color: white;
+}
+
+.bg-highlight {
+  background-color: var(--accent);
+  color: #042B60;
+}
+
+.text-institutional {
+  color: var(--primary);
+}
+
+.border-highlight {
+  border-color: var(--accent);
+}
