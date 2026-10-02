@@ -1,4 +1,4 @@
-window.MOCK_DORMITORIOS = [
+export default [
   { id: 'bed-1', bedNumber: '101-A', dormitory: 'Dormitorio de Damas', floor: 1, status: 'occupied', assignedStudent: 'Subinspector María Rodríguez', course: 'Curso de Especialización Criminalística' },
   { id: 'bed-2', bedNumber: '101-B', dormitory: 'Dormitorio de Damas', floor: 1, status: 'available', assignedStudent: null, course: null },
   { id: 'bed-3', bedNumber: '102-A', dormitory: 'Dormitorio de Damas', floor: 1, status: 'occupied', assignedStudent: 'Oficial Ana García', course: 'Curso de Inteligencia Policial' },

@@ -1,4 +1,4 @@
-window.MOCK_UBICACIONES = [
+export default [
   { id: 'loc-1', name: 'Aula 101', building: 'Edificio A', area: 'Académica', floor: 1, type: 'Aula' },
   { id: 'loc-2', name: 'Aula 102', building: 'Edificio A', area: 'Académica', floor: 1, type: 'Aula' },
   { id: 'loc-3', name: 'Laboratorio Balística', building: 'Edificio B', area: 'Investigación', floor: 1, type: 'Laboratorio' },
@@ -17,5 +17,25 @@ window.MOCK_UBICACIONES = [
   { id: 'loc-ga', name: 'Gestión Académica', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' },
   { id: 'loc-gt', name: 'Gestión Tecnológica', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' },
   { id: 'loc-sala', name: 'Sala de Reuniones Principal', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Sala' },
-  { id: 'loc-dir', name: 'Dirección General EIC', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' }
+  { id: 'loc-dir', name: 'Dirección General EIC', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' },
+  { id: 'loc-gym', name: 'Gimnasio', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Gimnasio' },
+  { id: 'loc-store2', name: 'Almacén 2', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Almacén' },
+  { id: 'loc-store1', name: 'Almacén 1', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Almacén' },
+  { id: 'loc-trials', name: 'Sala de Juicios Orales', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Sala' },
+  { id: 'loc-aud', name: 'Auditorio', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Auditorio' },
+  { id: 'loc-aula3', name: 'Aula 3', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Aula' },
+  { id: 'loc-itlab', name: 'Laboratorio Informática', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Laboratorio' },
+  { id: 'loc-servers', name: 'Servidores', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Servicios' },
+  { id: 'loc-doclab', name: 'Laboratorio Documentología', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Laboratorio' },
+  { id: 'loc-dorm4', name: 'Dormitorio Caballeros 4', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Dormitorio' },
+  { id: 'loc-dorm3', name: 'Dormitorio Caballeros 3', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Dormitorio' },
+  { id: 'loc-dorm2', name: 'Dormitorio Caballeros 2', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Dormitorio' },
+  { id: 'loc-instructors', name: 'Dormitorio Instructores', building: 'EIC', area: 'Primera Planta', floor: 1, type: 'Dormitorio' },
+  { id: 'loc-gc', name: 'Gestión Curricular', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' },
+  { id: 'loc-kitchen', name: 'Cocineta', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Servicios' },
+  { id: 'loc-wcm', name: 'Baños Caballeros', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Servicios' },
+  { id: 'loc-wcf', name: 'Baños Damas', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Servicios' },
+  { id: 'loc-sub', name: 'Subdirección', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' },
+  { id: 'loc-student', name: 'Administración Estudiantil', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' },
+  { id: 'loc-dept', name: 'Departamento Académico', building: 'EIC', area: 'Segunda Planta', floor: 2, type: 'Oficina' }
 ];

@@ -1,4 +1,4 @@
-window.MOCK_USUARIOS = [
+export default [
   {
     id: 'demo-user-1',
     uid: 'demo-user-1',

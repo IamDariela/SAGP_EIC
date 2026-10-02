@@ -1,4 +1,4 @@
-window.MOCK_MANTENIMIENTOS = [
+export default [
   {
     id: 'maint-1',
     assetId: 'a-3',
